@@ -45,6 +45,12 @@
            remote="kde"
            revision="2165b88a8f8c239ade8974e0fa966cd0473bc4f2"
            path="sources/meta-kde"/>
+  <project name="yocto-meta-kde-demo"
+           remote="kde"
+           revision="720333bfb64b9d0729cbf2e330ff738d8ec2466d"
+           path="sources/meta-kde-demo">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
