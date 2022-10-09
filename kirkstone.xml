@@ -47,7 +47,7 @@
            path="sources/meta-kde"/>
   <project name="yocto-meta-kde-demo"
            remote="kde"
-           revision="720333bfb64b9d0729cbf2e330ff738d8ec2466d"
+           revision="9388e13056a670b44ce9cb9eb0fbaffa06e2a708"
            path="sources/meta-kde-demo">
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
