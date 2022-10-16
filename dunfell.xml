@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Yocto -->
+  <remote name="yocto"
+          fetch="git://git.yoctoproject.org"/>
+  <project name="poky"
+           remote="yocto"
+           revision="refs/tags/yocto-3.1.19"
+           upstream="dunfell"
+           path="sources/poky"/>
+  <project name="meta-java"
+           remote="yocto"
+           revision="3af889e112ddb5c677990535b1e0209c08f68e3f"
+           upstream="dunfell"
+           path="sources/meta-java"/>
+
+  <!-- OpenEmbedded -->
+  <remote name="oe"
+          fetch="git://git.openembedded.org"/>
+  <remote name="oe-mirror"
+          fetch="https://github.com/openembedded"/>
+  <project name="meta-openembedded"
+           remote="oe"
+           revision="6792ebdd966aa0fb662989529193a0940fbfee00"
+           upstream="dunfell"
+           path="sources/meta-openembedded"/>
+  <project name="meta-python2"
+           remote="oe"
+           revision="b901080cf57d9a7f5476ab4d96e56c30db8170a8"
+           upstream="dunfell"
+           path="sources/meta-python2"/>
+
+  <!-- Qt -->
+  <remote name="qt"
+          fetch="https://github.com/meta-qt5/"/>
+  <project name="meta-qt5"
+           remote="qt"
+           revision="edf4825428920c7425f907933991eaf33c6273a7"
+           upstream="master"
+           path="sources/meta-qt5"/>
+
+  <!-- KDE -->
+  <remote name="kde"
+          fetch="https://invent.kde.org/packaging/"/>
+  <project name="yocto-meta-kf5"
+           remote="kde"
+           revision="master"
+           upstream="master"
+           path="sources/meta-kf5"/>
+  <project name="yocto-meta-kde"
+           remote="kde"
+           revision="dunfell"
+           upstream="dunfell"
+           path="sources/meta-kde"/>
+  <project name="yocto-meta-kde-demo"
+           remote="kde"
+           revision="master"
+           upstream="master"
+           path="sources/meta-kde-demo">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <!-- Raspberry Pi -->
+  <project name="meta-raspberrypi"
+           remote="yocto"
+           revision="2081e1bb9a44025db7297bfd5d024977d42191ed"
+           upstream="dunfell"
+           path="sources/meta-raspberrypi"/>
+</manifest>
