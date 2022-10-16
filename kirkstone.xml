@@ -5,11 +5,13 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="00c04394cbc5ecaced7cc1bc8bc8787e621f987d"
+           revision="refs/tags/yocto-4.0.4"
+           upstream="kirkstone"
            path="sources/poky"/>
   <project name="meta-java"
            remote="yocto"
            revision="1a8059f6b257ebe6fcae6416e499784d976afd24"
+           upstream="kirkstone"
            path="sources/meta-java"/>
 
   <!-- OpenEmbedded -->
@@ -20,10 +22,12 @@
   <project name="meta-openembedded"
            remote="oe"
            revision="0b78362654262145415df8211052442823b9ec9b"
+           upstream="kirkstone"
            path="sources/meta-openembedded"/>
   <project name="meta-python2"
            remote="oe"
            revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253"
+           upstream="kirkstone"
            path="sources/meta-python2"/>
 
   <!-- Qt -->
@@ -32,6 +36,7 @@
   <project name="meta-qt5"
            remote="qt"
            revision="edf4825428920c7425f907933991eaf33c6273a7"
+           upstream="master"
            path="sources/meta-qt5"/>
 
   <!-- KDE -->
@@ -39,15 +44,18 @@
           fetch="https://invent.kde.org/packaging/"/>
   <project name="yocto-meta-kf5"
            remote="kde"
-           revision="0650add995fee3c7effd1bf0dc450ecee8c957d0"
+           revision="master"
+           upstream="master"
            path="sources/meta-kf5"/>
   <project name="yocto-meta-kde"
            remote="kde"
-           revision="2165b88a8f8c239ade8974e0fa966cd0473bc4f2"
+           revision="master"
+           upstream="master"
            path="sources/meta-kde"/>
   <project name="yocto-meta-kde-demo"
            remote="kde"
-           revision="9388e13056a670b44ce9cb9eb0fbaffa06e2a708"
+           revision="master"
+           upstream="master"
            path="sources/meta-kde-demo">
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -56,5 +64,6 @@
   <project name="meta-raspberrypi"
            remote="yocto"
            revision="0135a02ea577bd39dd552236ead2c5894d89da1d"
+           upstream="kirkstone"
            path="sources/meta-raspberrypi"/>
 </manifest>
