@@ -61,4 +61,13 @@
            revision="6f5771d2bcfbfb8f8ce17b455c29a5703f2027c9"
            upstream="langdale"
            path="sources/meta-raspberrypi"/>
+
+  <!-- RISC-V-->
+  <remote name="riscv"
+          fetch="https://github.com/riscv/"/>
+  <project name="meta-riscv"
+           remote="yocto"
+           revision="master"
+           upstream="master"
+           path="sources/meta-riscv"/>
 </manifest>
