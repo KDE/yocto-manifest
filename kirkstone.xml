@@ -5,7 +5,7 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="refs/tags/yocto-4.0.4"
+           revision="refs/tags/yocto-4.0.5"
            upstream="kirkstone"
            path="sources/poky"/>
   <project name="meta-java"
@@ -21,7 +21,7 @@
           fetch="https://github.com/openembedded"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="0b78362654262145415df8211052442823b9ec9b"
+           revision="a8055484f2829e8dfd03d5c8520b2c611aa7ebd2"
            upstream="kirkstone"
            path="sources/meta-openembedded"/>
   <project name="meta-python2"
@@ -35,7 +35,7 @@
           fetch="https://github.com/meta-qt5/"/>
   <project name="meta-qt5"
            remote="qt"
-           revision="edf4825428920c7425f907933991eaf33c6273a7"
+           revision="c22b8fac9ca18687c3a163807dd74853101945a8"
            upstream="master"
            path="sources/meta-qt5"/>
 
@@ -63,7 +63,7 @@
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="0135a02ea577bd39dd552236ead2c5894d89da1d"
+           revision="dacad9302a92b0b7edf8546cdcad1f8ef753e462"
            upstream="kirkstone"
            path="sources/meta-raspberrypi"/>
 </manifest>
