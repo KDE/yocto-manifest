@@ -42,11 +42,11 @@
   <!-- KDE -->
   <remote name="kde"
           fetch="https://invent.kde.org/packaging/"/>
-<!--  <project name="yocto-meta-kf5"
+  <project name="yocto-meta-kf5"
            remote="kde"
-           revision="master"
-           upstream="qt6"
-           path="sources/meta-kf6"/>-->
+           revision="qt6-staging"
+           upstream="qt6-staging"
+           path="sources/meta-kf6"/>
 <!--  <project name="yocto-meta-kde"
            remote="kde"
            revision="master"
