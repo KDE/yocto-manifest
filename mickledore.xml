@@ -66,7 +66,7 @@
   <remote name="riscv"
           fetch="https://github.com/riscv/"/>
   <project name="meta-riscv"
-           remote="yocto"
+           remote="riscv"
            revision="master"
            upstream="master"
            path="sources/meta-riscv"/>
