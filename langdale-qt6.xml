@@ -30,7 +30,7 @@
           fetch="https://code.qt.io/yocto/"/>
   <project name="meta-qt6"
            remote="qt"
-           revision="refs/tags/v6.4.0"
+           revision="refs/tags/v6.5.0"
            upstream="master"
            path="sources/meta-qt6"/>
 
