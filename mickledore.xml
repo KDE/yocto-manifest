@@ -30,7 +30,7 @@
           fetch="https://github.com/meta-qt5/"/>
   <project name="meta-qt5"
            remote="qt"
-           revision="41fefb7cf44a89022a381e672c44a48dd9fb533c"
+           revision="mickledore"
            upstream="mickledore"
            path="sources/meta-qt5"/>
 
