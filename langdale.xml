@@ -67,7 +67,7 @@
           fetch="https://github.com/riscv/"/>
   <project name="meta-riscv"
            remote="riscv"
-           revision="master"
-           upstream="master"
+           revision="langdale"
+           upstream="langdale"
            path="sources/meta-riscv"/>
 </manifest>
