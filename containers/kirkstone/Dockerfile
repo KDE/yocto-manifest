@@ -11,6 +11,7 @@ RUN apt-get update && apt-get -y install gawk \
     bzip2 \
     chrpath \
     cpio \
+    curl \
     debianutils \
     diffstat \
     gcc-multilib \
@@ -44,6 +45,9 @@ RUN apt-get update && apt-get -y install gawk \
     && apt clean
 
 RUN pip3 install sphinx sphinx_rtd_theme pyyaml
+
+RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/bin/repo && \
+    chmod a+x /usr/bin/repo
 
 RUN locale-gen en_US.UTF-8 && update-locale LC_ALL=en_US.UTF-8 \
     LANG=en_US.UTF-8
