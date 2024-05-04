@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Yocto -->
+  <remote name="yocto"
+          fetch="git://git.yoctoproject.org"/>
+  <project name="poky"
+           remote="yocto"
+           revision="fb91a49387cfb0c8d48303bb3354325ba2a05587"
+           upstream="scarthgap"
+           path="sources/poky"/>
+  <project name="meta-java"
+           remote="yocto"
+           revision="a2c62218c1dbc4cb49461afa8c1a88f89cf9457f"
+           upstream="scarthgap"
+           path="sources/meta-java"/>
+
+  <!-- OpenEmbedded -->
+  <remote name="oe"
+          fetch="git://git.openembedded.org"/>
+  <remote name="oe-mirror"
+          fetch="https://github.com/openembedded"/>
+  <project name="meta-openembedded"
+           remote="oe"
+           revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea"
+           upstream="scarthgap"
+           path="sources/meta-openembedded"/>
+
+  <!-- Qt -->
+  <remote name="qt"
+          fetch="https://code.qt.io/yocto/"/>
+  <project name="meta-qt6"
+           remote="qt"
+           revision="refs/tags/v6.7.0"
+           upstream="master"
+           path="sources/meta-qt6"/>
+
+  <!-- KDE -->
+  <remote name="kde"
+          fetch="https://invent.kde.org/packaging/"/>
+  <project name="yocto-meta-kf6"
+           remote="kde"
+           revision="master"
+           upstream="master"
+           path="sources/meta-kf6"/>
+  <project name="yocto-meta-kde"
+           remote="kde"
+           revision="master"
+           upstream="master"
+           path="sources/meta-kde"/>
+  <project name="yocto-meta-kde-demo"
+           remote="kde"
+           revision="master"
+           upstream="master"
+           path="sources/meta-kde-demo">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <!-- Raspberry Pi -->
+  <project name="meta-raspberrypi"
+           remote="yocto"
+           revision="1879cb831f4ea3e532cb5ce9fa0f32be917e8fa3"
+           upstream="master"
+           path="sources/meta-raspberrypi"/>
+
+  <!-- RISC-V-->
+  <remote name="riscv"
+          fetch="https://github.com/riscv/"/>
+  <project name="meta-riscv"
+           remote="riscv"
+           revision="master"
+           upstream="master"
+           path="sources/meta-riscv"/>
+</manifest>
