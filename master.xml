@@ -35,7 +35,7 @@
           fetch="https://code.qt.io/yocto/"/>
   <project name="meta-qt6"
            remote="qt"
-           revision="6.6"
+           revision="dev"
            upstream="master"
            path="sources/meta-qt6"/>
 
@@ -49,8 +49,8 @@
            path="sources/meta-kf6"/>
   <project name="yocto-meta-kde"
            remote="kde"
-           revision="work/qt6"
-           upstream="work/qt6"
+           revision="master"
+           upstream="master"
            path="sources/meta-kde"/>
   <project name="yocto-meta-kde-demo"
            remote="kde"
