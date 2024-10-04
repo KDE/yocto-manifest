@@ -26,7 +26,7 @@
           fetch="https://github.com/openembedded"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea"
+           revision="735ae0310870ffce07ce0c55c4f87c20ac161ff9"
            upstream="scarthgap"
            path="sources/meta-openembedded"/>
 
