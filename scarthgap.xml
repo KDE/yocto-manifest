@@ -8,6 +8,11 @@
            revision="fb91a49387cfb0c8d48303bb3354325ba2a05587"
            upstream="scarthgap"
            path="sources/poky"/>
+  <project name="meta-lts-mixins"
+           remote="yocto"
+           revision="66ceeebd047d7fdfc8668b300319a76da8ae257d"
+           upstream="scarthgap/u-boot"
+           path="sources/meta-lts-mixins/u-boot"/>
   <project name="meta-java"
            remote="yocto"
            revision="a2c62218c1dbc4cb49461afa8c1a88f89cf9457f"
