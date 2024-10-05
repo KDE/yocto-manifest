@@ -13,6 +13,11 @@
            revision="66ceeebd047d7fdfc8668b300319a76da8ae257d"
            upstream="scarthgap/u-boot"
            path="sources/meta-lts-mixins/u-boot"/>
+  <project name="meta-qcom"
+           remote="yocto"
+           revision="8b28fe7d8fd74fb20419d32747b7c8acba869d89"
+           upstream="scarthgap"
+           path="sources/meta-qcom"/>
   <project name="meta-java"
            remote="yocto"
            revision="a2c62218c1dbc4cb49461afa8c1a88f89cf9457f"
