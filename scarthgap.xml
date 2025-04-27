@@ -40,8 +40,8 @@
           fetch="https://code.qt.io/yocto/"/>
   <project name="meta-qt6"
            remote="qt"
-           revision="refs/tags/v6.7.0"
-           upstream="master"
+           revision="refs/tags/v6.9.0"
+           upstream="qt/6.9.0"
            path="sources/meta-qt6"/>
 
   <!-- KDE -->
